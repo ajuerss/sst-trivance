@@ -1,0 +1,5 @@
+[JOB_ID] 10
+[NID_LIST] generateNidList=generateNidListRange(0,1024)
+[MOTIF] Init
+[MOTIF] RingAllreduce2D count=512 aggregation_cost_ns=0 blocking=true
+[MOTIF] Fini

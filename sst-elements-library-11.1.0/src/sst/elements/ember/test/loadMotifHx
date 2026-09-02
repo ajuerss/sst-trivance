@@ -1,0 +1,5 @@
+[JOB_ID] 10
+[NID_LIST] generateNidList=generateNidListHx(4x4x8x8)
+[MOTIF] Init
+[MOTIF] RingAllreduce2D px=32 count=1111 aggregation_cost_ns=0 blocking=false
+[MOTIF] Fini

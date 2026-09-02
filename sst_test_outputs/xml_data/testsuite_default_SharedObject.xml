@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="39" time="1.9387845993041992" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_SharedObject" skipped="0" tests="39" time="1.9387845993041992">
+		<testcase name="test_SharedObject_array_full_multi" time="0.048303" timestamp="2022_0218_14:42:36.226881 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_multi_conflict_fe" time="0.047597" timestamp="2022_0218_14:42:36.275296 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_multi_conflict_init" time="0.048503" timestamp="2022_0218_14:42:36.322996 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_multi_conflict_none" time="0.048298" timestamp="2022_0218_14:42:36.371603 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_single_fe" time="0.052229" timestamp="2022_0218_14:42:36.420047 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_single_init" time="0.047371" timestamp="2022_0218_14:42:36.472379 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_full_single_none" time="0.048676" timestamp="2022_0218_14:42:36.519860 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_late_initialize" time="0.048088" timestamp="2022_0218_14:42:36.568635 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_partial" time="0.049128" timestamp="2022_0218_14:42:36.616823 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_partial_doubleinit" time="0.048604" timestamp="2022_0218_14:42:36.666080 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_partial_late" time="0.047148" timestamp="2022_0218_14:42:36.714818 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_partial_late_nopub" time="0.047926" timestamp="2022_0218_14:42:36.762117 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_array_partial_nopub" time="0.050738" timestamp="2022_0218_14:42:36.810169 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_multi" time="0.093863" timestamp="2022_0218_14:42:36.861010 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_multi_conflict_fe" time="0.048151" timestamp="2022_0218_14:42:36.955014 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_multi_conflict_init" time="0.047417" timestamp="2022_0218_14:42:37.003267 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_multi_conflict_none" time="0.049916" timestamp="2022_0218_14:42:37.050787 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_single_fe" time="0.047907" timestamp="2022_0218_14:42:37.100803 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_single_init" time="0.049660" timestamp="2022_0218_14:42:37.148848 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_full_single_none" time="0.048737" timestamp="2022_0218_14:42:37.198651 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_late_initialize" time="0.049761" timestamp="2022_0218_14:42:37.247498 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_partial" time="0.048423" timestamp="2022_0218_14:42:37.297358 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_partial_doubleinit" time="0.046093" timestamp="2022_0218_14:42:37.345881 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_partial_late" time="0.048369" timestamp="2022_0218_14:42:37.392111 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_partial_late_nopub" time="0.049230" timestamp="2022_0218_14:42:37.440592 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_map_partial_nopub" time="0.048017" timestamp="2022_0218_14:42:37.489948 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_multi" time="0.049180" timestamp="2022_0218_14:42:37.538075 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_multi_conflict_fe" time="0.048167" timestamp="2022_0218_14:42:37.587394 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_multi_conflict_init" time="0.047698" timestamp="2022_0218_14:42:37.635675 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_multi_conflict_none" time="0.048735" timestamp="2022_0218_14:42:37.683472 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_single_fe" time="0.050922" timestamp="2022_0218_14:42:37.732312 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_single_init" time="0.047839" timestamp="2022_0218_14:42:37.783349 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_full_single_none" time="0.048214" timestamp="2022_0218_14:42:37.831295 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_late_initialize" time="0.047960" timestamp="2022_0218_14:42:37.879625 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_partial" time="0.049997" timestamp="2022_0218_14:42:37.927689 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_partial_doubleinit" time="0.046999" timestamp="2022_0218_14:42:37.977834 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_partial_late" time="0.048570" timestamp="2022_0218_14:42:38.024955 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_partial_late_nopub" time="0.048026" timestamp="2022_0218_14:42:38.073654 utc" classname="testcase_SharedObject"/>
+		<testcase name="test_SharedObject_set_partial_nopub" time="0.048328" timestamp="2022_0218_14:42:38.121828 utc" classname="testcase_SharedObject"/>
+	</testsuite>
+</testsuites>

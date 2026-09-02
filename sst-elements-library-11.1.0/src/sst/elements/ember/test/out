@@ -1,0 +1,831 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+Setting Value for ShortMsgSize to 10485760
+EMBER: network: topology=torus shape=4x4
+EMBER: numNodes=16 numNics=16
+override nicParams module=merlin.linkcontrol with merlin.reorderlinkcontrol
+link_bw 400Gb/s
+xbar_bw 3200Gb/s
+nic_link_bw 1600Gb/s
+EMBER: network: BW=400Gb/s pktSize=8192B flitSize=256B
+EMBER: Job=0, nidList='0-15'
+EMBER: Motif='Init'
+EMBER: Motif='RingAllreduceRev count=258 px=4'
+EMBER: Motif='Fini'
+m_px 4 - m_py 4 
+INFO rank: 7; rx: 3; ry: 1; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 7; allreduce_count: 33
+Count is 33 - m_p is 4 - block size 8
+Count is 33 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [7] starting reduce scatter
+[7] RS init: recv from 6; recv_block_idx: 1; recv_block_size: 32; tag: -1;
+[7] RS init: send to 4; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -1;
+[7] RS init: recv from 4; recv_block_idx: 3; recv_block_size: 33; tag: -3;
+[7] RS init: send to 6; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 6; rx: 2; ry: 1; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 6; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [6] starting reduce scatter
+[6] RS init: recv from 5; recv_block_idx: 0; recv_block_size: 32; tag: -1;
+[6] RS init: send to 7; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -1;
+[6] RS init: recv from 7; recv_block_idx: 0; recv_block_size: 32; tag: -3;
+[6] RS init: send to 5; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 5; rx: 1; ry: 1; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 5; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [5] starting reduce scatter
+[5] RS init: recv from 4; recv_block_idx: 3; recv_block_size: 33; tag: -1;
+[5] RS init: send to 6; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -1;
+[5] RS init: recv from 6; recv_block_idx: 1; recv_block_size: 32; tag: -3;
+[5] RS init: send to 4; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 11; rx: 3; ry: 2; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 11; allreduce_count: 33
+Count is 33 - m_p is 4 - block size 8
+Count is 33 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [11] starting reduce scatter
+[11] RS init: recv from 10; recv_block_idx: 1; recv_block_size: 32; tag: -1;
+[11] RS init: send to 8; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -1;
+[11] RS init: recv from 8; recv_block_idx: 3; recv_block_size: 33; tag: -3;
+[11] RS init: send to 10; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 4; rx: 0; ry: 1; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 4; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [4] starting reduce scatter
+[4] RS init: recv from 7; recv_block_idx: 2; recv_block_size: 32; tag: -1;
+[4] RS init: send to 5; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -1;
+[4] RS init: recv from 5; recv_block_idx: 2; recv_block_size: 32; tag: -3;
+[4] RS init: send to 7; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 10; rx: 2; ry: 2; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 10; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [10] starting reduce scatter
+[10] RS init: recv from 9; recv_block_idx: 0; recv_block_size: 32; tag: -1;
+[10] RS init: send to 11; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -1;
+[10] RS init: recv from 11; recv_block_idx: 0; recv_block_size: 32; tag: -3;
+[10] RS init: send to 9; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 9; rx: 1; ry: 2; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 9; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [9] starting reduce scatter
+[9] RS init: recv from 8; recv_block_idx: 3; recv_block_size: 33; tag: -1;
+[9] RS init: send to 10; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -1;
+[9] RS init: recv from 10; recv_block_idx: 1; recv_block_size: 32; tag: -3;
+[9] RS init: send to 8; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 8; rx: 0; ry: 2; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 8; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [8] starting reduce scatter
+[8] RS init: recv from 11; recv_block_idx: 2; recv_block_size: 32; tag: -1;
+[8] RS init: send to 9; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -1;
+[8] RS init: recv from 9; recv_block_idx: 2; recv_block_size: 32; tag: -3;
+[8] RS init: send to 11; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 3; rx: 3; ry: 0; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 3; allreduce_count: 33
+Count is 33 - m_p is 4 - block size 8
+Count is 33 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [3] starting reduce scatter
+[3] RS init: recv from 2; recv_block_idx: 1; recv_block_size: 32; tag: -1;
+[3] RS init: send to 0; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -1;
+[3] RS init: recv from 0; recv_block_idx: 3; recv_block_size: 33; tag: -3;
+[3] RS init: send to 2; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 2; rx: 2; ry: 0; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 2; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [2] starting reduce scatter
+[2] RS init: recv from 1; recv_block_idx: 0; recv_block_size: 32; tag: -1;
+[2] RS init: send to 3; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -1;
+[2] RS init: recv from 3; recv_block_idx: 0; recv_block_size: 32; tag: -3;
+[2] RS init: send to 1; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 1; rx: 1; ry: 0; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 1; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [1] starting reduce scatter
+[1] RS init: recv from 0; recv_block_idx: 3; recv_block_size: 33; tag: -1;
+[1] RS init: send to 2; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -1;
+[1] RS init: recv from 2; recv_block_idx: 1; recv_block_size: 32; tag: -3;
+[1] RS init: send to 0; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 0; rx: 0; ry: 0; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 0; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [0] starting reduce scatter
+[0] RS init: recv from 3; recv_block_idx: 2; recv_block_size: 32; tag: -1;
+[0] RS init: send to 1; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -1;
+[0] RS init: recv from 1; recv_block_idx: 2; recv_block_size: 32; tag: -3;
+[0] RS init: send to 3; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 15; rx: 3; ry: 3; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 15; allreduce_count: 33
+Count is 33 - m_p is 4 - block size 8
+Count is 33 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [15] starting reduce scatter
+[15] RS init: recv from 14; recv_block_idx: 1; recv_block_size: 32; tag: -1;
+[15] RS init: send to 12; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -1;
+[15] RS init: recv from 12; recv_block_idx: 3; recv_block_size: 33; tag: -3;
+[15] RS init: send to 14; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 14; rx: 2; ry: 3; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 14; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [14] starting reduce scatter
+[14] RS init: recv from 13; recv_block_idx: 0; recv_block_size: 32; tag: -1;
+[14] RS init: send to 15; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -1;
+[14] RS init: recv from 15; recv_block_idx: 0; recv_block_size: 32; tag: -3;
+[14] RS init: send to 13; send_block_idx: 1; buff_offset: 32; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 13; rx: 1; ry: 3; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 13; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [13] starting reduce scatter
+[13] RS init: recv from 12; recv_block_idx: 3; recv_block_size: 33; tag: -1;
+[13] RS init: send to 14; send_block_idx: 0; buff_offset: 0; send_buff_size: 32; tag: -1;
+[13] RS init: recv from 14; recv_block_idx: 1; recv_block_size: 32; tag: -3;
+[13] RS init: send to 12; send_block_idx: 2; buff_offset: 64; send_buff_size: 32; tag: -3;
+m_px 4 - m_py 4 
+INFO rank: 12; rx: 0; ry: 3; m_px: 4; m_py: 4
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+INFO rank 12; allreduce_count: 32
+Count is 32 - m_p is 4 - block size 8
+Count is 32 - m_p is 4 - block size 8
+Count is 129 - m_p is 4 - block size 32
+Count is 129 - m_p is 4 - block size 32
+### [12] starting reduce scatter
+[12] RS init: recv from 15; recv_block_idx: 2; recv_block_size: 32; tag: -1;
+[12] RS init: send to 13; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -1;
+[12] RS init: recv from 13; recv_block_idx: 2; recv_block_size: 32; tag: -3;
+[12] RS init: send to 15; send_block_idx: 3; buff_offset: 96; send_buff_size: 33; tag: -3;
+[4] RS: send to 5; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[4] RS: recv from 7; recv_block_idx: 1; count: 32; tag: -1
+[5] RS: send to 6; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[5] RS: recv from 4; recv_block_idx: 2; count: 32; tag: -1
+[6] RS: send to 7; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[6] RS: recv from 5; recv_block_idx: 3; count: 33; tag: -1
+[7] RS: send to 4; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[7] RS: recv from 6; recv_block_idx: 0; count: 32; tag: -1
+[12] RS: send to 13; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[12] RS: recv from 15; recv_block_idx: 1; count: 32; tag: -1
+[13] RS: send to 14; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[13] RS: recv from 12; recv_block_idx: 2; count: 32; tag: -1
+[14] RS: send to 15; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[14] RS: recv from 13; recv_block_idx: 3; count: 33; tag: -1
+[15] RS: send to 12; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[15] RS: recv from 14; recv_block_idx: 0; count: 32; tag: -1
+[0] RS: send to 1; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[0] RS: recv from 3; recv_block_idx: 1; count: 32; tag: -1
+[1] RS: send to 2; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[1] RS: recv from 0; recv_block_idx: 2; count: 32; tag: -1
+[2] RS: send to 3; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[2] RS: recv from 1; recv_block_idx: 3; count: 33; tag: -1
+[3] RS: send to 0; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[3] RS: recv from 2; recv_block_idx: 0; count: 32; tag: -1
+[8] RS: send to 9; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[8] RS: recv from 11; recv_block_idx: 1; count: 32; tag: -1
+[9] RS: send to 10; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[9] RS: recv from 8; recv_block_idx: 2; count: 32; tag: -1
+[10] RS: send to 11; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[10] RS: recv from 9; recv_block_idx: 3; count: 33; tag: -1
+[11] RS: send to 8; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[11] RS: recv from 10; recv_block_idx: 0; count: 32; tag: -1
+[4] RS: send to 7; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[4] RS: recv from 5; recv_block_idx: 1; count: 32; tag: -3
+[5] RS: send to 4; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[5] RS: recv from 6; recv_block_idx: 0; count: 32; tag: -3
+[6] RS: send to 5; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[6] RS: recv from 7; recv_block_idx: 3; count: 33; tag: -3
+[7] RS: send to 6; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[7] RS: recv from 4; recv_block_idx: 2; count: 32; tag: -3
+[0] RS: send to 3; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[0] RS: recv from 1; recv_block_idx: 1; count: 32; tag: -3
+[1] RS: send to 0; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[1] RS: recv from 2; recv_block_idx: 0; count: 32; tag: -3
+[2] RS: send to 1; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[2] RS: recv from 3; recv_block_idx: 3; count: 33; tag: -3
+[3] RS: send to 2; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[3] RS: recv from 0; recv_block_idx: 2; count: 32; tag: -3
+[12] RS: send to 15; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[12] RS: recv from 13; recv_block_idx: 1; count: 32; tag: -3
+[13] RS: send to 12; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[13] RS: recv from 14; recv_block_idx: 0; count: 32; tag: -3
+[14] RS: send to 13; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[14] RS: recv from 15; recv_block_idx: 3; count: 33; tag: -3
+[15] RS: send to 14; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[15] RS: recv from 12; recv_block_idx: 2; count: 32; tag: -3
+[8] RS: send to 11; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[8] RS: recv from 9; recv_block_idx: 1; count: 32; tag: -3
+[9] RS: send to 8; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[9] RS: recv from 10; recv_block_idx: 0; count: 32; tag: -3
+[10] RS: send to 9; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[10] RS: recv from 11; recv_block_idx: 3; count: 33; tag: -3
+[11] RS: send to 10; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[11] RS: recv from 8; recv_block_idx: 2; count: 32; tag: -3
+[12] RS: send to 13; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[12] RS: recv from 15; recv_block_idx: 0; count: 32; tag: -1
+[13] RS: send to 14; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[13] RS: recv from 12; recv_block_idx: 1; count: 32; tag: -1
+[14] RS: send to 15; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[14] RS: recv from 13; recv_block_idx: 2; count: 32; tag: -1
+[15] RS: send to 12; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[15] RS: recv from 14; recv_block_idx: 3; count: 33; tag: -1
+[4] RS: send to 5; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[4] RS: recv from 7; recv_block_idx: 0; count: 32; tag: -1
+[5] RS: send to 6; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[5] RS: recv from 4; recv_block_idx: 1; count: 32; tag: -1
+[6] RS: send to 7; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[6] RS: recv from 5; recv_block_idx: 2; count: 32; tag: -1
+[7] RS: send to 4; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[7] RS: recv from 6; recv_block_idx: 3; count: 33; tag: -1
+[0] RS: send to 1; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[0] RS: recv from 3; recv_block_idx: 0; count: 32; tag: -1
+[1] RS: send to 2; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[1] RS: recv from 0; recv_block_idx: 1; count: 32; tag: -1
+[2] RS: send to 3; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[2] RS: recv from 1; recv_block_idx: 2; count: 32; tag: -1
+[3] RS: send to 0; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[3] RS: recv from 2; recv_block_idx: 3; count: 33; tag: -1
+[8] RS: send to 9; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -1
+[8] RS: recv from 11; recv_block_idx: 0; count: 32; tag: -1
+[9] RS: send to 10; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -1
+[9] RS: recv from 8; recv_block_idx: 1; count: 32; tag: -1
+[10] RS: send to 11; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -1
+[10] RS: recv from 9; recv_block_idx: 2; count: 32; tag: -1
+[11] RS: send to 8; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -1
+[11] RS: recv from 10; recv_block_idx: 3; count: 33; tag: -1
+[0] RS: send to 3; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[0] RS: recv from 1; recv_block_idx: 0; count: 32; tag: -3
+[1] RS: send to 0; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[1] RS: recv from 2; recv_block_idx: 3; count: 33; tag: -3
+[2] RS: send to 1; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[2] RS: recv from 3; recv_block_idx: 2; count: 32; tag: -3
+[3] RS: send to 2; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[3] RS: recv from 0; recv_block_idx: 1; count: 32; tag: -3
+[4] RS: send to 7; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[4] RS: recv from 5; recv_block_idx: 0; count: 32; tag: -3
+[5] RS: send to 4; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[5] RS: recv from 6; recv_block_idx: 3; count: 33; tag: -3
+[6] RS: send to 5; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[6] RS: recv from 7; recv_block_idx: 2; count: 32; tag: -3
+[7] RS: send to 6; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[7] RS: recv from 4; recv_block_idx: 1; count: 32; tag: -3
+[8] RS: send to 11; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[8] RS: recv from 9; recv_block_idx: 0; count: 32; tag: -3
+[9] RS: send to 8; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[9] RS: recv from 10; recv_block_idx: 3; count: 33; tag: -3
+[10] RS: send to 9; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[10] RS: recv from 11; recv_block_idx: 2; count: 32; tag: -3
+[11] RS: send to 10; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[11] RS: recv from 8; recv_block_idx: 1; count: 32; tag: -3
+[12] RS: send to 15; recv_block_offset: 1; recv_block_offset: 32; count: 32; tag: -3
+[12] RS: recv from 13; recv_block_idx: 0; count: 32; tag: -3
+[13] RS: send to 12; recv_block_offset: 0; recv_block_offset: 0; count: 32; tag: -3
+[13] RS: recv from 14; recv_block_idx: 3; count: 33; tag: -3
+[14] RS: send to 13; recv_block_offset: 3; recv_block_offset: 96; count: 33; tag: -3
+[14] RS: recv from 15; recv_block_idx: 2; count: 32; tag: -3
+[15] RS: send to 14; recv_block_offset: 2; recv_block_offset: 64; count: 32; tag: -3
+[15] RS: recv from 12; recv_block_idx: 1; count: 32; tag: -3
+### [4] starting allreduce
+[4] RS init: recv from 0; recv_block_idx: 3; recv_block_size: 8; tag: -5;
+[4] RS init: send to 8; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -5;
+[4] RS init: recv from 8; recv_block_idx: 1; recv_block_size: 8; tag: -7;
+[4] RS init: send to 0; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -7;
+### [5] starting allreduce
+[5] RS init: recv from 1; recv_block_idx: 3; recv_block_size: 8; tag: -5;
+[5] RS init: send to 9; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -5;
+[5] RS init: recv from 9; recv_block_idx: 1; recv_block_size: 8; tag: -7;
+[5] RS init: send to 1; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -7;
+### [6] starting allreduce
+[6] RS init: recv from 2; recv_block_idx: 3; recv_block_size: 8; tag: -5;
+[6] RS init: send to 10; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -5;
+[6] RS init: recv from 10; recv_block_idx: 1; recv_block_size: 8; tag: -7;
+[6] RS init: send to 2; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -7;
+### [7] starting allreduce
+[7] RS init: recv from 3; recv_block_idx: 3; recv_block_size: 9; tag: -5;
+[7] RS init: send to 11; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -5;
+[7] RS init: recv from 11; recv_block_idx: 1; recv_block_size: 8; tag: -7;
+[7] RS init: send to 3; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -7;
+### [0] starting allreduce
+[0] RS init: recv from 12; recv_block_idx: 2; recv_block_size: 8; tag: -5;
+[0] RS init: send to 4; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -5;
+[0] RS init: recv from 4; recv_block_idx: 2; recv_block_size: 8; tag: -7;
+[0] RS init: send to 12; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -7;
+### [1] starting allreduce
+[1] RS init: recv from 13; recv_block_idx: 2; recv_block_size: 8; tag: -5;
+[1] RS init: send to 5; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -5;
+[1] RS init: recv from 5; recv_block_idx: 2; recv_block_size: 8; tag: -7;
+[1] RS init: send to 13; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -7;
+### [2] starting allreduce
+[2] RS init: recv from 14; recv_block_idx: 2; recv_block_size: 8; tag: -5;
+[2] RS init: send to 6; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -5;
+[2] RS init: recv from 6; recv_block_idx: 2; recv_block_size: 8; tag: -7;
+[2] RS init: send to 14; send_block_idx: 3; buff_offset: 24; send_buff_size: 8; tag: -7;
+### [3] starting allreduce
+[3] RS init: recv from 15; recv_block_idx: 2; recv_block_size: 8; tag: -5;
+[3] RS init: send to 7; send_block_idx: 3; buff_offset: 24; send_buff_size: 9; tag: -5;
+[3] RS init: recv from 7; recv_block_idx: 2; recv_block_size: 8; tag: -7;
+[3] RS init: send to 15; send_block_idx: 3; buff_offset: 24; send_buff_size: 9; tag: -7;
+### [12] starting allreduce
+[12] RS init: recv from 8; recv_block_idx: 1; recv_block_size: 8; tag: -5;
+[12] RS init: send to 0; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -5;
+[12] RS init: recv from 0; recv_block_idx: 3; recv_block_size: 8; tag: -7;
+[12] RS init: send to 8; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -7;
+### [13] starting allreduce
+[13] RS init: recv from 9; recv_block_idx: 1; recv_block_size: 8; tag: -5;
+[13] RS init: send to 1; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -5;
+[13] RS init: recv from 1; recv_block_idx: 3; recv_block_size: 8; tag: -7;
+[13] RS init: send to 9; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -7;
+### [14] starting allreduce
+[14] RS init: recv from 10; recv_block_idx: 1; recv_block_size: 8; tag: -5;
+[14] RS init: send to 2; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -5;
+[14] RS init: recv from 2; recv_block_idx: 3; recv_block_size: 8; tag: -7;
+[14] RS init: send to 10; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -7;
+### [15] starting allreduce
+[15] RS init: recv from 11; recv_block_idx: 1; recv_block_size: 8; tag: -5;
+[15] RS init: send to 3; send_block_idx: 2; buff_offset: 16; send_buff_size: 8; tag: -5;
+[15] RS init: recv from 3; recv_block_idx: 3; recv_block_size: 9; tag: -7;
+[15] RS init: send to 11; send_block_idx: 0; buff_offset: 0; send_buff_size: 8; tag: -7;
+### [8] starting allreduce
+[8] RS init: recv from 4; recv_block_idx: 0; recv_block_size: 8; tag: -5;
+[8] RS init: send to 12; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -5;
+[8] RS init: recv from 12; recv_block_idx: 0; recv_block_size: 8; tag: -7;
+[8] RS init: send to 4; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -7;
+### [9] starting allreduce
+[9] RS init: recv from 5; recv_block_idx: 0; recv_block_size: 8; tag: -5;
+[9] RS init: send to 13; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -5;
+[9] RS init: recv from 13; recv_block_idx: 0; recv_block_size: 8; tag: -7;
+[9] RS init: send to 5; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -7;
+### [10] starting allreduce
+[10] RS init: recv from 6; recv_block_idx: 0; recv_block_size: 8; tag: -5;
+[10] RS init: send to 14; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -5;
+[10] RS init: recv from 14; recv_block_idx: 0; recv_block_size: 8; tag: -7;
+[10] RS init: send to 6; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -7;
+### [11] starting allreduce
+[11] RS init: recv from 7; recv_block_idx: 0; recv_block_size: 8; tag: -5;
+[11] RS init: send to 15; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -5;
+[11] RS init: recv from 15; recv_block_idx: 0; recv_block_size: 8; tag: -7;
+[11] RS init: send to 7; send_block_idx: 1; buff_offset: 8; send_buff_size: 8; tag: -7;
+[0] RS: send to 4; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[0] RS: recv from 12; recv_block_idx: 1; count: 8; tag: -5
+[1] RS: send to 5; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[1] RS: recv from 13; recv_block_idx: 1; count: 8; tag: -5
+[2] RS: send to 6; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[2] RS: recv from 14; recv_block_idx: 1; count: 8; tag: -5
+[3] RS: send to 7; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[3] RS: recv from 15; recv_block_idx: 1; count: 8; tag: -5
+[4] RS: send to 8; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[4] RS: recv from 0; recv_block_idx: 2; count: 8; tag: -5
+[5] RS: send to 9; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[5] RS: recv from 1; recv_block_idx: 2; count: 8; tag: -5
+[6] RS: send to 10; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[6] RS: recv from 2; recv_block_idx: 2; count: 8; tag: -5
+[7] RS: send to 11; recv_block_offset: 3; recv_block_offset: 24; count: 9; tag: -5
+[7] RS: recv from 3; recv_block_idx: 2; count: 8; tag: -5
+[8] RS: send to 12; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[8] RS: recv from 4; recv_block_idx: 3; count: 8; tag: -5
+[9] RS: send to 13; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[9] RS: recv from 5; recv_block_idx: 3; count: 8; tag: -5
+[10] RS: send to 14; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[10] RS: recv from 6; recv_block_idx: 3; count: 8; tag: -5
+[11] RS: send to 15; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[11] RS: recv from 7; recv_block_idx: 3; count: 9; tag: -5
+[12] RS: send to 0; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[12] RS: recv from 8; recv_block_idx: 0; count: 8; tag: -5
+[13] RS: send to 1; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[13] RS: recv from 9; recv_block_idx: 0; count: 8; tag: -5
+[14] RS: send to 2; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[14] RS: recv from 10; recv_block_idx: 0; count: 8; tag: -5
+[15] RS: send to 3; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[15] RS: recv from 11; recv_block_idx: 0; count: 8; tag: -5
+[12] RS: send to 8; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[8] RS: send to 4; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[12] RS: recv from 0; recv_block_idx: 2; count: 8; tag: -7
+[8] RS: recv from 12; recv_block_idx: 3; count: 8; tag: -7
+[13] RS: send to 9; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[13] RS: recv from 1; recv_block_idx: 2; count: 8; tag: -7
+[14] RS: send to 10; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[14] RS: recv from 2; recv_block_idx: 2; count: 8; tag: -7
+[9] RS: send to 5; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[15] RS: send to 11; recv_block_offset: 3; recv_block_offset: 24; count: 9; tag: -7
+[0] RS: send to 12; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[15] RS: recv from 3; recv_block_idx: 2; count: 8; tag: -7
+[0] RS: recv from 4; recv_block_idx: 1; count: 8; tag: -7
+[9] RS: recv from 13; recv_block_idx: 3; count: 8; tag: -7
+[1] RS: send to 13; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[1] RS: recv from 5; recv_block_idx: 1; count: 8; tag: -7
+[10] RS: send to 6; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[10] RS: recv from 14; recv_block_idx: 3; count: 8; tag: -7
+[4] RS: send to 0; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[4] RS: recv from 8; recv_block_idx: 0; count: 8; tag: -7
+[11] RS: send to 7; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[2] RS: send to 14; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[5] RS: send to 1; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[2] RS: recv from 6; recv_block_idx: 1; count: 8; tag: -7
+[11] RS: recv from 15; recv_block_idx: 3; count: 9; tag: -7
+[5] RS: recv from 9; recv_block_idx: 0; count: 8; tag: -7
+[3] RS: send to 15; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[3] RS: recv from 7; recv_block_idx: 1; count: 8; tag: -7
+[6] RS: send to 2; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[6] RS: recv from 10; recv_block_idx: 0; count: 8; tag: -7
+[7] RS: send to 3; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[7] RS: recv from 11; recv_block_idx: 0; count: 8; tag: -7
+[4] RS: send to 8; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[0] RS: send to 4; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[4] RS: recv from 0; recv_block_idx: 1; count: 8; tag: -5
+[0] RS: recv from 12; recv_block_idx: 0; count: 8; tag: -5
+[5] RS: send to 9; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[5] RS: recv from 1; recv_block_idx: 1; count: 8; tag: -5
+[1] RS: send to 5; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[6] RS: send to 10; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[1] RS: recv from 13; recv_block_idx: 0; count: 8; tag: -5
+[8] RS: send to 12; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[8] RS: recv from 4; recv_block_idx: 2; count: 8; tag: -5
+[6] RS: recv from 2; recv_block_idx: 1; count: 8; tag: -5
+[9] RS: send to 13; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[9] RS: recv from 5; recv_block_idx: 2; count: 8; tag: -5
+[2] RS: send to 6; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[7] RS: send to 11; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -5
+[7] RS: recv from 3; recv_block_idx: 1; count: 8; tag: -5
+[2] RS: recv from 14; recv_block_idx: 0; count: 8; tag: -5
+[12] RS: send to 0; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[3] RS: send to 7; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -5
+[3] RS: recv from 15; recv_block_idx: 0; count: 8; tag: -5
+[12] RS: recv from 8; recv_block_idx: 3; count: 8; tag: -5
+[10] RS: send to 14; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -5
+[10] RS: recv from 6; recv_block_idx: 2; count: 8; tag: -5
+[13] RS: send to 1; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[13] RS: recv from 9; recv_block_idx: 3; count: 8; tag: -5
+[11] RS: send to 15; recv_block_offset: 3; recv_block_offset: 24; count: 9; tag: -5
+[14] RS: send to 2; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[14] RS: recv from 10; recv_block_idx: 3; count: 8; tag: -5
+[11] RS: recv from 7; recv_block_idx: 2; count: 8; tag: -5
+[15] RS: send to 3; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -5
+[15] RS: recv from 11; recv_block_idx: 3; count: 9; tag: -5
+[12] RS: send to 8; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[12] RS: recv from 0; recv_block_idx: 1; count: 8; tag: -7
+[13] RS: send to 9; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[13] RS: recv from 1; recv_block_idx: 1; count: 8; tag: -7
+[14] RS: send to 10; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[14] RS: recv from 2; recv_block_idx: 1; count: 8; tag: -7
+[15] RS: send to 11; recv_block_offset: 2; recv_block_offset: 16; count: 8; tag: -7
+[15] RS: recv from 3; recv_block_idx: 1; count: 8; tag: -7
+[8] RS: send to 4; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[8] RS: recv from 12; recv_block_idx: 2; count: 8; tag: -7
+[9] RS: send to 5; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[9] RS: recv from 13; recv_block_idx: 2; count: 8; tag: -7
+[10] RS: send to 6; recv_block_offset: 3; recv_block_offset: 24; count: 8; tag: -7
+[10] RS: recv from 14; recv_block_idx: 2; count: 8; tag: -7
+[11] RS: send to 7; recv_block_offset: 3; recv_block_offset: 24; count: 9; tag: -7
+[11] RS: recv from 15; recv_block_idx: 2; count: 8; tag: -7
+[4] RS: send to 0; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[4] RS: recv from 8; recv_block_idx: 3; count: 8; tag: -7
+[0] RS: send to 12; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[0] RS: recv from 4; recv_block_idx: 0; count: 8; tag: -7
+[5] RS: send to 1; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[5] RS: recv from 9; recv_block_idx: 3; count: 8; tag: -7
+[1] RS: send to 13; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[1] RS: recv from 5; recv_block_idx: 0; count: 8; tag: -7
+[6] RS: send to 2; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[6] RS: recv from 10; recv_block_idx: 3; count: 8; tag: -7
+[2] RS: send to 14; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[7] RS: send to 3; recv_block_offset: 0; recv_block_offset: 0; count: 8; tag: -7
+[2] RS: recv from 6; recv_block_idx: 0; count: 8; tag: -7
+[7] RS: recv from 11; recv_block_idx: 3; count: 9; tag: -7
+[3] RS: send to 15; recv_block_offset: 1; recv_block_offset: 8; count: 8; tag: -7
+[3] RS: recv from 7; recv_block_idx: 0; count: 8; tag: -7
+### [0] starting allgather
+### [4] starting allgather
+[0] AG init: recv from 3; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+### [12] starting allgather
+### [8] starting allgather
+[12] AG init: recv from 15; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[8] AG init: recv from 11; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[8] AG init: send to 9; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[8] AG init: recv from 9; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[0] AG init: send to 1; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[8] AG init: send to 11; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[4] AG init: recv from 7; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[12] AG init: send to 13; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[4] AG init: send to 5; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[0] AG init: recv from 1; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[0] AG init: send to 3; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[12] AG init: recv from 13; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[4] AG init: recv from 5; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[12] AG init: send to 15; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+### [1] starting allgather
+[4] AG init: send to 7; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[1] AG init: recv from 0; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+### [13] starting allgather
+### [9] starting allgather
+[13] AG init: recv from 12; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[9] AG init: recv from 8; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[9] AG init: send to 10; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[1] AG init: send to 2; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+### [5] starting allgather
+[1] AG init: recv from 2; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[9] AG init: recv from 10; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[9] AG init: send to 8; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[1] AG init: send to 0; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+### [10] starting allgather
+[10] AG init: recv from 9; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[10] AG init: send to 11; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[10] AG init: recv from 11; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[10] AG init: send to 9; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+### [2] starting allgather
+### [11] starting allgather
+[13] AG init: send to 14; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[5] AG init: recv from 4; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[13] AG init: recv from 14; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[11] AG init: recv from 10; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[2] AG init: recv from 1; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[13] AG init: send to 12; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[2] AG init: send to 3; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[5] AG init: send to 6; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[2] AG init: recv from 3; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[2] AG init: send to 1; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[11] AG init: send to 8; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+### [14] starting allgather
+[14] AG init: recv from 13; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[11] AG init: recv from 8; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[11] AG init: send to 10; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[5] AG init: recv from 6; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[5] AG init: send to 4; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[14] AG init: send to 15; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+### [6] starting allgather
+[6] AG init: recv from 5; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[6] AG init: send to 7; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[14] AG init: recv from 15; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[14] AG init: send to 13; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[6] AG init: recv from 7; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+### [15] starting allgather
+[15] AG init: recv from 14; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+### [3] starting allgather
+[15] AG init: send to 12; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[15] AG init: recv from 12; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[15] AG init: send to 14; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[6] AG init: send to 5; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+### [7] starting allgather
+[7] AG init: recv from 6; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[3] AG init: recv from 2; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[7] AG init: send to 4; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[3] AG init: send to 0; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[7] AG init: recv from 4; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[3] AG init: recv from 0; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[3] AG init: send to 2; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[7] AG init: send to 6; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[4] AG: recv from 7; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[8] AG: recv from 11; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[12] AG: recv from 15; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[8] AG: send to 9; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[4] AG: send to 5; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[9] AG: recv from 8; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[9] AG: send to 10; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[5] AG: recv from 4; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[5] AG: send to 6; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[10] AG: recv from 9; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[12] AG: send to 13; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[0] AG: recv from 3; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[0] AG: send to 1; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[6] AG: recv from 5; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[13] AG: recv from 12; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[1] AG: recv from 0; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[13] AG: send to 14; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[1] AG: send to 2; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[10] AG: send to 11; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[6] AG: send to 7; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[14] AG: recv from 13; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[7] AG: recv from 6; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[7] AG: send to 4; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[14] AG: send to 15; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[2] AG: recv from 1; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[15] AG: recv from 14; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[15] AG: send to 12; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[2] AG: send to 3; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[11] AG: recv from 10; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[3] AG: recv from 2; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[3] AG: send to 0; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[11] AG: send to 8; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[12] AG: recv from 13; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[12] AG: send to 15; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[13] AG: recv from 14; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[13] AG: send to 12; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[14] AG: recv from 15; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[14] AG: send to 13; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[15] AG: recv from 12; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[15] AG: send to 14; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[8] AG: recv from 9; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[8] AG: send to 11; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[9] AG: recv from 10; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[9] AG: send to 8; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[10] AG: recv from 11; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[10] AG: send to 9; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[11] AG: recv from 8; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[11] AG: send to 10; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[0] AG: recv from 1; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[0] AG: send to 3; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[1] AG: recv from 2; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[1] AG: send to 0; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[2] AG: recv from 3; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[2] AG: send to 1; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[3] AG: recv from 0; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[3] AG: send to 2; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[4] AG: recv from 5; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[4] AG: send to 7; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[5] AG: recv from 6; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[5] AG: send to 4; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[6] AG: recv from 7; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[6] AG: send to 5; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[7] AG: recv from 4; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[7] AG: send to 6; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[0] AG: recv from 3; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[0] AG: send to 1; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[1] AG: recv from 0; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[1] AG: send to 2; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[2] AG: recv from 1; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[2] AG: send to 3; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[3] AG: recv from 2; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[3] AG: send to 0; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[4] AG: recv from 7; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[4] AG: send to 5; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[5] AG: recv from 4; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[5] AG: send to 6; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[6] AG: recv from 5; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[6] AG: send to 7; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[7] AG: recv from 6; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[7] AG: send to 4; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[12] AG: recv from 15; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[12] AG: send to 13; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[13] AG: recv from 12; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[13] AG: send to 14; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[14] AG: recv from 13; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[14] AG: send to 15; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[15] AG: recv from 14; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[15] AG: send to 12; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[8] AG: recv from 11; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -10;
+[8] AG: send to 9; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -10;
+[9] AG: recv from 8; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -10;
+[9] AG: send to 10; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -10;
+[10] AG: recv from 9; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -10;
+[10] AG: send to 11; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -10;
+[11] AG: recv from 10; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -10;
+[11] AG: send to 8; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -10;
+[4] AG: recv from 5; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[4] AG: send to 7; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[5] AG: recv from 6; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[5] AG: send to 4; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[12] AG: recv from 13; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[6] AG: recv from 7; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[8] AG: recv from 9; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[8] AG: send to 11; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[9] AG: recv from 10; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[6] AG: send to 5; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[12] AG: send to 15; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[9] AG: send to 8; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[10] AG: recv from 11; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[10] AG: send to 9; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[13] AG: recv from 14; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[11] AG: recv from 8; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[11] AG: send to 10; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[13] AG: send to 12; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[7] AG: recv from 4; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[14] AG: recv from 15; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[14] AG: send to 13; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[7] AG: send to 6; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[15] AG: recv from 12; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[15] AG: send to 14; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+[0] AG: recv from 1; recv_block_idx: 1; recv_block_offset: 32; recv_block_size: 32; tag: -12;
+[0] AG: send to 3; send_block_idx: 2; send_block_offset: 64; send_block_size: 32; tag: -12;
+[1] AG: recv from 2; recv_block_idx: 0; recv_block_offset: 0; recv_block_size: 32; tag: -12;
+[1] AG: send to 0; send_block_idx: 1; send_block_offset: 32; send_block_size: 32; tag: -12;
+[2] AG: recv from 3; recv_block_idx: 3; recv_block_offset: 96; recv_block_size: 33; tag: -12;
+[2] AG: send to 1; send_block_idx: 0; send_block_offset: 0; send_block_size: 32; tag: -12;
+[3] AG: recv from 0; recv_block_idx: 2; recv_block_offset: 64; recv_block_size: 32; tag: -12;
+[3] AG: send to 2; send_block_idx: 3; send_block_offset: 96; send_block_size: 33; tag: -12;
+TIME 12 139875944785513 8390009646693303347 8389869770748517834 1032 1744 0.000000 0.000000
+TIME 4 84 32 18446744073709551564 1032 1744 0.000000 0.000000
+TIME 8 139875878568032 0 18446604197830983584 1032 1744 0.000000 0.000000
+TIME 0 94880731690000 94880731684512 18446744073709546128 1032 1744 0.000000 0.000000
+TIME 1 139875800167040 16 18446604197909384592 1032 1740 0.000000 0.000000
+TIME 9 139875878561248 139875878559328 18446744073709549696 1032 1740 0.000000 0.000000
+TIME 5 139876012784144 139876012783360 18446744073709550832 1032 1740 0.000000 0.000000
+TIME 6 139875802383232 139875802383104 18446744073709551488 1032 1736 0.000000 0.000000
+TIME 7 139875802308992 139875802308864 18446744073709551488 1032 1744 0.000000 0.000000
+TIME 2 139875800058240 139875800058112 18446744073709551488 1032 1736 0.000000 0.000000
+TIME 10 139875804435840 139875804435712 18446744073709551488 1032 1736 0.000000 0.000000
+TIME 3 139875800081536 139875800081408 18446744073709551488 1032 1748 0.000000 0.000000
+TIME 13 139875945648304 139875945671104 22800 1032 1740 0.610526 9.768421
+TIME 11 139875804417152 139875804417024 18446744073709551488 1032 1748 0.000000 0.000000
+TIME 14 139875787645056 139875787644928 18446744073709551488 1032 1736 0.000000 0.000000
+TIME 15 139875787628928 139875787628800 18446744073709551488 1032 1744 0.000000 0.000000
+STATS 0 11 EMBER 0 1947 1947 1748
+STATS 0 7 EMBER 0 1947 1947 1744
+STATS 0 10 EMBER 0 1947 1947 1736
+STATS 0 9 EMBER 0 1947 1947 1740
+STATS 0 8 EMBER 0 1947 1947 1744
+STATS 0 3 EMBER 0 1947 1947 1748
+STATS 0 6 EMBER 0 1947 1947 1736
+STATS 0 5 EMBER 0 1947 1947 1740
+STATS 0 4 EMBER 0 1947 1947 1744
+STATS 0 2 EMBER 0 1947 1947 1736
+STATS 0 15 EMBER 0 1947 1947 1744
+STATS 0 1 EMBER 0 1947 1947 1740
+STATS 0 0 EMBER 0 1947 1947 1744
+STATS 0 14 EMBER 0 1947 1947 1736
+STATS 0 13 EMBER 0 1947 1947 1740
+STATS 0 12 EMBER 0 1947 1947 1744
+Nic 7 received 2558 bytes
+Nic 15 received 2558 bytes
+Nic 11 received 2558 bytes
+Nic 6 received 2554 bytes
+Nic 10 received 2554 bytes
+Nic 14 received 2554 bytes
+Nic 3 received 2550 bytes
+Nic 2 received 2554 bytes
+Nic 4 received 2546 bytes
+Nic 12 received 2546 bytes
+Nic 8 received 2546 bytes
+Nic 13 received 2550 bytes
+Nic 9 received 2550 bytes
+Nic 0 received 2546 bytes
+Nic 1 received 2550 bytes
+Nic 5 received 2550 bytes
+Simulation is complete, simulated time: 4.0054 us

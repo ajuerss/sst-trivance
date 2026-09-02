@@ -1,0 +1,408 @@
+# SST Specific
+*.inc
+*.dirstamp
+*.deps/
+
+
+**/.vscode/
+sst-elements-library-11.1.0/src/sst/elements/ember/test/output/*
+
+*/autom4te.cache/*
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+
+sst-elements-library-11.1.0/Makefile
+sst-elements-library-11.1.0/config.status
+sst-elements-library-11.1.0/libtool
+sst-elements-library-11.1.0/src/Makefile
+sst-elements-library-11.1.0/src/sst/Makefile
+sst-elements-library-11.1.0/src/sst/elements/CramSim/Makefile
+sst-elements-library-11.1.0/src/sst/elements/Makefile
+sst-elements-library-11.1.0/src/sst/elements/Messier/Makefile
+sst-elements-library-11.1.0/src/sst/elements/Samba/Makefile
+sst-elements-library-11.1.0/src/sst/elements/VaultSimC/Makefile
+sst-elements-library-11.1.0/src/sst/elements/ariel/Makefile
+sst-elements-library-11.1.0/src/sst/elements/balar/Makefile
+sst-elements-library-11.1.0/src/sst/elements/cacheTracer/Makefile
+sst-elements-library-11.1.0/src/sst/elements/cassini/Makefile
+sst-elements-library-11.1.0/src/sst/elements/ember/Makefile
+sst-elements-library-11.1.0/src/sst/elements/ember/sst-meshconvert
+sst-elements-library-11.1.0/src/sst/elements/ember/sst-spygen
+sst-elements-library-11.1.0/src/sst/elements/firefly/Makefile
+sst-elements-library-11.1.0/src/sst/elements/hermes/Makefile
+sst-elements-library-11.1.0/src/sst/elements/kingsley/Makefile
+sst-elements-library-11.1.0/src/sst/elements/memHierarchy/Makefile
+sst-elements-library-11.1.0/src/sst/elements/merlin/Makefile
+sst-elements-library-11.1.0/src/sst/elements/miranda/Makefile
+sst-elements-library-11.1.0/src/sst/elements/prospero/Makefile
+sst-elements-library-11.1.0/src/sst/elements/shogun/Makefile
+sst-elements-library-11.1.0/src/sst/elements/simpleElementExample/Makefile
+sst-elements-library-11.1.0/src/sst/elements/simpleSimulation/Makefile
+sst-elements-library-11.1.0/src/sst/elements/thornhill/Makefile
+sst-elements-library-11.1.0/src/sst/elements/vanadis/Makefile
+sst-elements-library-11.1.0/src/sst/elements/vanadis/sst-vanadis-tracediff
+sst-elements-library-11.1.0/src/sst/elements/zodiac/Makefile
+sst-elements-library-11.1.0/src/sst_element_config.h
+sst-elements-library-11.1.0/src/stamp-h1
+sst-elements-library-11.1.0/sst_test_outputs/
+sst-elements-library-11.1.0/src/libltdl/
+sst-elements-library-11.1.0/src/sst/elements/ember/test/allocation/logs/
+sst-elements-library-11.1.0/src/sst/elements/ember/test/allocation/out/job_sizes/
+sst-elements-library-11.1.0/src/sst/elements/ember/test/allocation/out/utilizations/
+sst-elements-library-11.1.0/Makefile.in
+sst-elements-library-11.1.0/src/Makefile.in
+sst-elements-library-11.1.0/src/sst/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/CramSim/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/Messier/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/Samba/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/VaultSimC/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/ariel/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/balar/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/cacheTracer/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/cassini/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/ember/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/firefly/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/hermes/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/kingsley/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/memHierarchy/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/merlin/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/miranda/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/prospero/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/shogun/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/simpleElementExample/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/simpleSimulation/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/thornhill/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/vanadis/Makefile.in
+sst-elements-library-11.1.0/src/sst/elements/zodiac/Makefile.in
+sstcore-11.1.0/Makefile
+sstcore-11.1.0/config.status
+sstcore-11.1.0/doc/Doxyfile
+sstcore-11.1.0/doc/Makefile
+sstcore-11.1.0/libtool
+sstcore-11.1.0/share/Makefile
+sstcore-11.1.0/share/SSTConfig.cmake
+sstcore-11.1.0/src/Makefile
+sstcore-11.1.0/src/sst/Makefile
+sstcore-11.1.0/src/sst/SST-11.1.0.pc
+sstcore-11.1.0/src/sst/core/Makefile
+sstcore-11.1.0/src/sst/core/build_info.h
+sstcore-11.1.0/src/sst/core/sst
+sstcore-11.1.0/src/sst/core/sst-config
+sstcore-11.1.0/src/sst/core/sst-info
+sstcore-11.1.0/src/sst/core/sst-register
+sstcore-11.1.0/src/sst/core/sst-test-core
+sstcore-11.1.0/src/sst/core/sst-test-elements
+sstcore-11.1.0/src/sst/core/sst_config.h
+sstcore-11.1.0/src/sst/core/sstinfo.x
+sstcore-11.1.0/src/sst/core/sstsim.x
+sstcore-11.1.0/src/sst/core/stamp-h1
+sstcore-11.1.0/src/sst/sstsimulator.conf
+sstcore-11.1.0/sst_test_outputs/
+
+
+# Project Specific
+
+benchmarks/expTopology/Ring2D/*/
+benchmarks/16nodesTopology/Ring2D/*/
+benchmarks/64nodesTopology/Ring2D/*/
+benchmarks/16nodesTopology/AllToAll/*/
+benchmarks/64nodesTopology/AllToAll/*/
+benchmarks/64nodesTopology/RingAllReduce/*/
+benchmarks/64nodesTopology/AllToAll/*/
+benchmarks/16nodesTopology/RingAllReduce/*/
+benchmarks/16nodesTopology/FTT/*/
+benchmarks/16nodesTopology/ResNet/*/
+data/
+final_data_paper_small/
+to_show_results/
+
+
+benchmarks/smallTopology/AllToAll/*/
+benchmarks/smallTopology/AllToAllSST/*/
+benchmarks/smallTopology/AllToAllSalvo/*/
+benchmarks/smallTopology/AllToAllTom/*/
+benchmarks/smallTopology/GPT3/*/
+benchmarks/smallTopology/GPT3MOE/*/
+benchmarks/smallTopology/ResNet/*/
+benchmarks/smallTopology/BiPingPong/*/
+benchmarks/smallTopology/RingAllReduce/*/
+benchmarks/smallTopology/AllReduce/*/
+benchmarks/smallTopology/RandomPermutation/*/
+benchmarks/smallTopology/ParallelJobs/*/
+benchmarks/smallTopology/Cosmo/*/
+benchmarks/smallTopology/Plot/*/
+benchmarks/smallTopology/DLRM/*/
+
+
+benchmarks/16nodesTopology/AllToAll/*/
+benchmarks/16nodesTopology/AllToAllSST/*/
+benchmarks/16nodesTopology/AllToAllSalvo/*/
+benchmarks/16nodesTopology/AllToAllTom/*/
+benchmarks/16nodesTopology/GPT3/*/
+benchmarks/16nodesTopology/GPT3MOE/*/
+benchmarks/16nodesTopology/ResNet/*/
+benchmarks/16nodesTopology/BiPingPong/*/
+benchmarks/16nodesTopology/RingAllReduce/*/
+
+benchmarks/64nodesTopology/AllToAll/*/
+benchmarks/64nodesTopology/AllToAllSST/*/
+benchmarks/64nodesTopology/AllToAllSalvo/*/
+benchmarks/64nodesTopology/AllToAllTom/*/
+benchmarks/64nodesTopology/GPT3/*/
+benchmarks/64nodesTopology/ResNet/*/
+benchmarks/64nodesTopology/BiPingPong/*/
+benchmarks/64nodesTopology/RingAllReduce/*/
+benchmarks/64nodesTopology/RandomPermutation/*/
+
+benchmarks/largeTopology/AllToAll/*/
+benchmarks/largeTopology/AllToAllSST/*/
+benchmarks/largeTopology/AllToAllSalvo/*/
+benchmarks/largeTopology/AllToAllTom/*/
+benchmarks/largeTopology/GPT3/*/
+benchmarks/largeTopology/GPT3MOE/*/
+benchmarks/largeTopology/ResNet/*/
+benchmarks/largeTopology/BiPingPong/*/
+benchmarks/largeTopology/RingAllReduce/*/
+benchmarks/largeTopology/AllReduce/*/
+benchmarks/largeTopology/RandomPermutation/*/
+
+benchmarks/4knodes/AllToAllTom/*/
+benchmarks/8knodes/AllToAllTom/*/
+
+
+benchmarks/1536nodes/AllToAll/*/
+benchmarks/1536nodes/AllToAllSST/*/
+benchmarks/1536nodes/AllToAllSalvo/*/
+benchmarks/1536nodes/AllToAllTom/*/
+benchmarks/1536nodes/GPT3/*/
+benchmarks/1536nodes/GPT3MOE/*/
+benchmarks/1536nodes/ResNet/*/
+benchmarks/1536nodes/BiPingPong/*/
+benchmarks/1536nodes/RingAllReduce/*/
+
+benchmarks/384nodes/AllToAll/*/
+benchmarks/384nodes/AllToAllSST/*/
+benchmarks/384nodes/AllToAllSalvo/*/
+benchmarks/384nodes/AllToAllTom/*/
+benchmarks/384nodes/GPT3/*/
+benchmarks/384nodes/GPT3MOE/*/
+benchmarks/384nodes/ResNet/*/
+benchmarks/384nodes/BiPingPong/*/
+benchmarks/384nodes/RingAllReduce/*/
+
+benchmarks/4knodesTopology/AllToAll/*/
+benchmarks/4knodesTopology/AllToAllSST/*/
+benchmarks/4knodesTopology/AllToAllSalvo/*/
+benchmarks/4knodesTopology/AllToAllTom/*/
+benchmarks/4knodesTopology/GPT3/*/
+benchmarks/4knodesTopology/GPT3MOE/*/
+benchmarks/4knodesTopology/ResNet/*/
+benchmarks/4knodesTopology/BiPingPong/*/
+benchmarks/4knodesTopology/RingAllReduce/*/
+benchmarks/4knodesTopology/AllReduce/*/
+benchmarks/4knodesTopology/RandomPermutation/*/
+benchmarks/4knodesTopology/ParallelJobs/*/
+benchmarks/4knodesTopology/Cosmo/*/
+
+
+/benchmarks/smallTopology/AllReduceV2/*/
+/benchmarks/256nodes/AllReduceV2/*/
+/benchmarks/4knodes/AllReduceV2/*/

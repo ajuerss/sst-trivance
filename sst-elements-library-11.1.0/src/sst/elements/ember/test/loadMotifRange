@@ -1,0 +1,6 @@
+#ALLPINGPONGISMPLE
+[JOB_ID] 10
+[NID_LIST] generateNidList=generateNidListRange(0,1024)
+[MOTIF] Init
+[MOTIF] RingAllreduce2D count=8192 aggregation_cost_ns=0 blocking=false
+[MOTIF] Fini

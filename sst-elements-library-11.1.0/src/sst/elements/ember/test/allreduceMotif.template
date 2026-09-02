@@ -1,0 +1,5 @@
+[JOB_ID] 10
+[NID_LIST] generateNidList=generateNidListHx(#SHAPE#)
+[MOTIF] Init
+[MOTIF] #ALGO# px=#PX# count=#COUNT# aggregation_cost_ns=#AGGCOST# blocking=#BLOCKING#
+[MOTIF] Fini

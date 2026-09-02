@@ -1,0 +1,5 @@
+[JOB_ID] 10
+[NID_LIST] generateNidList=generateNidListHx(4x4x8x8)
+[MOTIF] Init
+[MOTIF] Alltoall bytes=44
+[MOTIF] Fini
